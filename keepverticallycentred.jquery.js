@@ -5,7 +5,9 @@ Keep Vertically Centred jQuery Plugin
 © 2013 Chrissi Klassen
 
 Usage:
-	$('#yourElement').keepVerticallyCentred();
+	$(document).ready(function(){
+		$('#yourElement').keepVerticallyCentred();
+	}
 
 Tips:
 	Elements must be positioned relatively.
